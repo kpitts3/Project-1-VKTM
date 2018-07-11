@@ -1,0 +1,82 @@
+
+
+
+body { 
+    font-family: "Helvetica", Verdana;
+	min-height: 100vh;
+    background-image: url("../images/slate2.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#jumbotron {
+    background: none
+}
+
+.search-input {
+    border-radius: 0 !important;
+   align-content: center;
+   width: 200px; 
+   margin-left: 530px;
+   font-family: "Helvetica";
+}
+
+.btn-primary {
+    color: white;
+    background-color: white;
+}
+
+.button {
+    font-family: "Helvetica", Verdana;
+    background-color: white;
+    border: none;
+    color: rgb(85, 84, 84);
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+    margin-left: 530px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Helvetica", Verdana;
+    font-weight: 20;
+    text-align: center;
+    color: white;
+}
+
+/* .display-4 {
+    margin-top: 210px;
+    margin-left: 90px;
+    color: white;
+   
+} */
+#headerOne {
+    font-family: "Helvetica", Verdana;
+    font-size: 90px;
+   
+}
+.borderClimate {
+    margin-top: 210px;
+    margin-left: 230px;
+        font-family: consolas;
+        border: 9px solid white;
+        border: white;
+        border-style: solid;
+        border-width: 9px;
+        height: 200px;
+        width: 700px;
+        color: white;
+      
+   
+       
+      
+}
