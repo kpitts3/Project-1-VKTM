@@ -27,8 +27,8 @@ body {
     background-color: white;
 }
 
-.button {
-    font-family: "Helvetica", Verdana;
+#button-input {
+    'Open Sans Condensed', sans-serif;
     background-color: white;
     border: none;
     color: rgb(85, 84, 84);
@@ -37,20 +37,23 @@ body {
     font-size: 16px;
     cursor: pointer;
     align-content: center;
-    margin-left: 530px;
+    margin-left: 475px;
+    width: 450px;
     
 }
 
 h1 {
     color: white;
     text-align: center;
+    margin-top: 50px
 }
 
 p {
-    font-family: "Helvetica", Verdana;
-    font-weight: 20;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-weight: 20; */
     text-align: center;
     color: white;
+    font-size: 100px;
 }
 
 /* .display-4 {
@@ -60,23 +63,33 @@ p {
    
 } */
 #headerOne {
-    font-family: "Helvetica", Verdana;
-    font-size: 90px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
    
 }
 .borderClimate {
     margin-top: 210px;
     margin-left: 230px;
         font-family: consolas;
-        border: 9px solid white;
+        border: 5px solid white;
         border: white;
         border-style: solid;
-        border-width: 9px;
+        border-width: 5px;
         height: 200px;
         width: 700px;
-        color: white;
-      
-   
-       
-      
+        color: white;     
+}
+
+#food-input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#drink-input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
