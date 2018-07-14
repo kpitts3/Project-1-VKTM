@@ -92,3 +92,10 @@ p {
     top: 0px;
     z-index: -1;
 }
+
+
+.imgSize {
+
+    width: 250px;
+    height:  250px;
+}
