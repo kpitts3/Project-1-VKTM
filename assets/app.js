@@ -2,7 +2,7 @@
 
 //carousel 
 $('.carousel').carousel({
-  interval: 1000
+  interval: 3000
 });
 // geolocation api
 function geoFindMe() {
