@@ -1,6 +1,9 @@
 
 
-
+//carousel 
+$('.carousel').carousel({
+  interval: 1000
+});
 // geolocation api
 function geoFindMe() {
     var output = document.getElementById("out");
