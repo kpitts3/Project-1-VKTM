@@ -2,6 +2,7 @@
 
 
 body { 
+    background-color: red;
     font-family: "Helvetica", Verdana;
 	min-height: 100vh;
     background-image: url("../images/slate2.jpg");
@@ -28,7 +29,7 @@ body {
 }
 
 #button-input {
-    'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     background-color: white;
     border: none;
     color: rgb(85, 84, 84);
@@ -37,7 +38,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     align-content: center;
-    margin-left: 475px;
+    margin-left: 425px;
     width: 450px;
     
 }
@@ -45,7 +46,7 @@ body {
 h1 {
     color: white;
     text-align: center;
-    margin-top: 50px
+    margin-top: 70px;
 }
 
 p {
@@ -81,14 +82,14 @@ p {
 }
 
 #food-input {
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     top: 0px;
     z-index: -1;
 }
 
 #drink-input {
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     top: 0px;
     z-index: -1;
