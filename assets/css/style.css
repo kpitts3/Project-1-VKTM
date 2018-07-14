@@ -19,7 +19,7 @@ body {
     border-radius: 0 !important;
    align-content: center;
    width: 200px; 
-   margin-left: 530px;
+   /* margin-left: 530px; */
    font-family: "Helvetica";
 }
 
@@ -30,15 +30,15 @@ body {
 
 #button-input {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-color: white;
+    /* background-color: white; */
     border: none;
     color: rgb(85, 84, 84);
     padding: 15px 25px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    align-content: center;
-    margin-left: 425px;
+    /* align-content: center;
+    margin-left: 425px; */
     width: 450px;
     
 }
@@ -69,16 +69,14 @@ p {
    
 }
 .borderClimate {
-    margin-top: 210px;
-    margin-left: 230px;
+   
         font-family: consolas;
         border: 5px solid white;
         border: white;
         border-style: solid;
         border-width: 5px;
-        height: 200px;
-        width: 700px;
         color: white;     
+        
 }
 
 #food-input {
