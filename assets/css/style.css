@@ -2,13 +2,13 @@
 
 
 body { 
-    background-color: red;
-    font-family: "Helvetica", Verdana;
+    background-color: black;
+    /* font-family: "Helvetica", Verdana;
 	min-height: 100vh;
     background-image: url("../images/slate2.jpg");
     background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
+	background-attachment: scroll; */
 }
 
 #jumbotron {
@@ -17,9 +17,8 @@ body {
 
 .search-input {
     border-radius: 0 !important;
-   align-content: center;
+   /* align-content: center; */
    width: 200px; 
-   /* margin-left: 530px; */
    font-family: "Helvetica";
 }
 
@@ -30,39 +29,32 @@ body {
 
 #button-input {
     font-family: 'Open Sans Condensed', sans-serif;
-    /* background-color: white; */
     border: none;
     color: rgb(85, 84, 84);
-    padding: 15px 25px;
+    /* padding: 15px 25px; */
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    /* align-content: center;
-    margin-left: 425px; */
+    position: relative;
+    margin: auto;
     width: 450px;
     
 }
 
 h1 {
     color: white;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 70px;
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
-    /* font-weight: 20; */
+    font-weight: 20;
     text-align: center;
     color: white;
     font-size: 100px;
 }
 
-/* .display-4 {
-    margin-top: 210px;
-    margin-left: 90px;
-    color: white;
-   
-} */
 #headerOne {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 50px;
@@ -83,16 +75,49 @@ p {
     /* position: absolute; */
     left: 0px;
     top: 0px;
-    z-index: -1;
+    background-color: black;
+    text-align: center;
+    align-content: center
 }
 
 #drink-input {
     /* position: absolute; */
     left: 0px;
     top: 0px;
-    z-index: -1;
+    background-color: black;
+    text-align: center;
+    align-content: center
 }
 
+.results{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+    color: white; 
+    margin-top: 50px;
+    padding-top: 20px;
+    border: 5px solid white;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    height: 90px;
+    width: 450px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#drink-name{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+#drink-instructions{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 20px;
+}
 
 .imgSize {
 
