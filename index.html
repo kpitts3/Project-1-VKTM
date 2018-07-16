@@ -10,7 +10,12 @@
 
   <script type="text/javascript" src="./assets/javascript/app.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300%7CRubik+Mono+One" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
@@ -18,6 +23,7 @@
     crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
+
 
 </head>
 <header>
@@ -32,77 +38,90 @@
 </header>
 
 <body>
-  <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
+  <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel row" data-ride="carousel">
 
-    <div class="carousel-inner" z-index:-1>
+      <div class="carousel-inner" z-index:-1>
 
-      <div class="carousel-item active ">
-        <img class="d-block w-100" src="http://bdcwire.com/wp-content/uploads/2014/01/stephanies-mac.jpg" alt="First slide" height=600px>
-        <div class="carousel-caption d-none d-md-block borderClimate row justify-content-md-center row justify-content-sm-center">
-          <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
-          <p class="lead">Seasonal Sips & Snacks</p>
-          <div id="button-input" class="input-group mb-3 ">
-            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+        <div class="carousel-item active ">
+          <img class="d-block w-100" src="http://bdcwire.com/wp-content/uploads/2014/01/stephanies-mac.jpg" alt="First slide" height=600px>
+          <!-- <div class="carousel-caption d-none d-md-block borderClimate row justify-content-md-center row justify-content-sm-center">
+            <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+            <p class="lead">Seasonal Sips & Snacks</p>
+            <div id="button-input" class="input-group mb-3 ">
+              <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+              </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </div>
 
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/t/595298c0725e25616478eaa5/1498585301957/fresh+pineapple+salsa+%7C+RECIPE+on+hotforfoodblog.com"
-          alt="Third slide" height=600px>
-        <div class="carousel-caption d-none d-md-block borderClimate">
-          <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
-          <p class="lead">Seasonal Sips & Snacks</p>
-          <div id="button-input" class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://static1.squarespace.com/static/52a0e62be4b0aa09f5b95593/t/595298c0725e25616478eaa5/1498585301957/fresh+pineapple+salsa+%7C+RECIPE+on+hotforfoodblog.com"
+            alt="Third slide" height=600px>
+          <!-- <div class="carousel-caption d-none d-md-block borderClimate">
+            <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+            <p class="lead">Seasonal Sips & Snacks</p>
+            <div id="button-input" class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+              </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://static01.nyt.com/images/2016/09/14/dining/14TORTE-WEB/14TORTE-WEB-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale"
-          alt="Fourth slide" height=600px>
-        <div class="carousel-caption d-none d-md-block borderClimate">
-          <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
-          <p class="lead">Seasonal Sips & Snacks</p>
-          <div id="button-input" class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://static01.nyt.com/images/2016/09/14/dining/14TORTE-WEB/14TORTE-WEB-articleLarge-v2.jpg?quality=75&auto=webp&disable=upscale"
+            alt="Fourth slide" height=600px> 
+          <!-- <div class="carousel-caption d-none d-md-block borderClimate">
+            <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+            <p class="lead">Seasonal Sips & Snacks</p>
+            <div id="button-input" class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+              </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://static01.nyt.com/images/2014/02/12/dining/12CHILI_SPAN/12CHILI-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
-          alt="Fifth slide" height=600px>
-        <div class="carousel-caption d-none d-md-block borderClimate">
-          <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
-          <p class="lead">Seasonal Sips & Snacks</p>
-          <div id="button-input" class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://static01.nyt.com/images/2014/02/12/dining/12CHILI_SPAN/12CHILI-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+            alt="Fifth slide" height=600px>
+          <!-- <div class="carousel-caption d-none d-md-block borderClimate">
+            <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+            <p class="lead">Seasonal Sips & Snacks</p>
+            <div id="button-input" class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+              </div>
             </div>
-          </div>
+          </div> -->
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="https://www.healthline.com/hlcmsresource/images/topic_centers/ibs/1296x728_BODY_8-Collard_Green_Spring_Rolls.jpg"
-          alt="Sixth slide" height=600px>
-        <div class="carousel-caption d-none d-md-block borderClimate">
-          <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
-          <p class="lead">Seasonal Sips & Snacks</p>
-          <div id="button-input" class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://www.healthline.com/hlcmsresource/images/topic_centers/ibs/1296x728_BODY_8-Collard_Green_Spring_Rolls.jpg"
+            alt="Sixth slide" height=600px>
+          <!-- <div class="carousel-caption d-none d-md-block borderClimate">
+            <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+            <p class="lead">Seasonal Sips & Snacks</p>
+            <div id="button-input" class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
+              </div>
             </div>
+          </div> -->
+        </div> 
+      </div>
+    </div>
+    <div class="borderClimate row justify-content-lg-center">
+        <h1 id="headerOne" class="display-4">Climate Kitchen</h1>
+        <p class="lead">Seasonal Sips & Snacks</p>
+        <div id="button-input" class="input-group mb-3 ">
+          <input id="city" type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button id="submit" class="btn btn-outline-secondary" type="button">Forcast Your Food</button>
           </div>
         </div>
       </div>
@@ -113,9 +132,16 @@
     <br>
 
     <div class="row">
-      <div id="food-input" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <h2 class="results"> Clear Plates </h2>
-      </div>
+        <div id="food-input" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <h2 class="results"> Clear Plates </h2>
+          <div id="food-image"></div>
+          <br>
+          <div id="food-name"></div>
+          <br>
+          <div id="food-instructions"></div>
+        </div>
+
+        
       <div id="drink-input" class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <h2 class="results"> Downpours </h2>
         <div id="drink-image"></div>
