@@ -164,14 +164,39 @@ var ctgry;
         // Log the data in the console as well
  
     });
+
+
   
     
      var summerFood = ["summer","soup", "salad", "sandwich", "hamburger"]
      var springFood = ["spring","soup", "salad", "sandwich", "hamburger"]
      var fallFood = ["fall","soup", "salad", "sandwich", "Steak"]
      var winterFood = ["winter","soup", "salad", "sandwich", "steak"]
-     var queryURLFood = "http://api.yummly.com/v1/api/recipes?_app_id=6e04f77b&_app_key=912abf90d814a5f830eebbc729ad24e0&q=" + ctgryFood;
+
      
+     var ctgryFood;
+     var temp = response.main.temp
+     var ranArray = [summerFood[Math.floor(Math.random()*summerFood.length)], springFood[Math.floor(Math.random()*springFood.length)], fallFood[Math.floor(Math.random()*fallFood.length)], winterFood[Math.floor(Math.random()*winterFood.length)]]
+     if (temp <= 40) {
+      ctgryFood = ranArray[3]
+     } else if (temp > 40 && temp < 61){
+     
+     
+     ctgryFood = ranArray[2];
+     } else if (temp > 61 && temp <71) {
+      ctgry = ranArray[1]
+     } else {
+     
+     ctgryFood = ranArray[0]
+     }
+     console.log(temp);
+     
+     console.warn(ctgry);
+     
+     console.warn(ranArray);
+    
+     var queryURLFood = "http://api.yummly.com/v1/api/recipes?_app_id=6e04f77b&_app_key=912abf90d814a5f830eebbc729ad24e0&q=" + ctgryFood;
+
         $.ajax({
            url: queryURLFood,
            method: "GET",
@@ -192,28 +217,9 @@ var ctgry;
         $("#food-name").append(foodName);
         $("#food-instructions").append("<a href='" + recipeUrl + "'>" + recipeUrl + "</a>")
 
-        var ctgryFood;
-        var temp = response.main.temp
-        var ranArray = [summerFood[Math.floor(Math.random()*summerFood.length)], springFood[Math.floor(Math.random()*springFood.length)], fallFood[Math.floor(Math.random()*fallFood.length)], winterFood[Math.floor(Math.random()*winterFood.length)]]
-        if (temp <= 40) {
-         ctgryFood = ranArray[3]
-        } else if (temp > 40 && temp < 61){
-        
-        
-        ctgryFood = ranArray[2];
-        } else if (temp > 61 && temp <71) {
-         ctgry = ranArray[1]
-        } else {
-        
-        ctgryFood = ranArray[0]
-        }
-        console.log(temp);
-        
-        console.warn(ctgry);
-        
-        console.warn(ranArray);
-        })
+
   
  })
     });
-  });
+  })
+});
