@@ -1,57 +1,49 @@
-
-
-
-body { 
+body {
     background-color: black;
-    /* font-family: "Helvetica", Verdana;
-	min-height: 100vh;
-    background-image: url("../images/slate2.jpg");
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: scroll; */
-}
-#carousel{
-    z-index: -1;
-    
 }
 
-#jumbotron {
-    background: none
+#carousel {
+    z-index: -1;
 }
 
 .search-input {
     border-radius: 0 !important;
-   /* align-content: center; */
-   width: 200px; 
-   font-family: "Helvetica";
-   z-index: 1;
+    /* align-content: center; */
+    width: 200px;
+    font-family: "Helvetica";
+    z-index: 2;
 }
 
 .btn-primary {
     color: white;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
+
+/* search white box */
 
 #button-input {
     font-family: 'Open Sans Condensed', sans-serif;
     border: none;
     color: rgb(85, 84, 84);
-    /* padding: 15px 25px; */
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    position: relative;
-    margin: auto;
+    /* position: relative;
+    margin: auto; */
     width: 450px;
-    z-index: 1;
-    
+    z-index: 2;
+    margin-top: 50px;
+    margin: auto;
 }
 
-h1 {
+#submit {
     color: white;
-    /* text-align: center; */
-    margin-top: 70px;
+    background-color: black;
+}
+
+#city {
+    color: black;
 }
 
 p {
@@ -59,27 +51,42 @@ p {
     font-weight: 20;
     text-align: center;
     color: white;
-    font-size: 100px;
+    font-size: 25px;
+    z-index: 2;
+    margin-top: -80px;
+    /* margin-left: 300px; */
+    position: relative;
 }
+
+
 
 #headerOne {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 50px;
-    z-index: 1;
-   
+    z-index: 2;
+    /* margin-top: -75px; */
+    position: relative;
+    /* margin-left: 200px; */
+    color: white;
 }
+
 .borderClimate {
-   
-        /* font-family: consolas; */
-        
-        border: white;
-        border-style: solid;
-        border-width: 5px;
-        border-color: white;
-        color: white;  
-        z-index: 1; 
-        margin-top: -300px;
-        
+    border: white;
+    z-index: 1;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    margin-top: -300px;
+    position: relative;
+    text-align: center;
+    width: 59%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    /* width: 300px;
+        height: */
 }
 
 #food-input {
@@ -89,7 +96,7 @@ p {
     background-color: black;
     text-align: center;
     align-content: center;
-    margin-top: 175px
+    margin-top: 30px
 }
 
 #drink-input {
@@ -99,13 +106,13 @@ p {
     background-color: black;
     text-align: center;
     align-content: center;
-    margin-top: 175px;
+    margin-top: 30px;
 }
 
-.results{
+.results {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 30px;
-    color: white; 
+    color: white;
     margin-top: 50px;
     padding-top: 20px;
     border: 5px solid white;
@@ -117,25 +124,25 @@ p {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
-#drink-name{
-    font-family: 'Open Sans Condensed', sans-serif;
+#drink-name {
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 50px;
 }
 
-#drink-instructions{
-    font-family: 'Open Sans Condensed', sans-serif;
+#drink-instructions {
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
 }
 
 .imgSize {
-
     width: 250px;
-    height:  250px;
+    height: 250px;
 }
 
 #food-name {
@@ -143,9 +150,9 @@ p {
     color: white;
     font-size: 50px;
 }
- 
- #food-instructions {
+
+#food-instructions {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 20px;
- }
+}

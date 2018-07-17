@@ -1,16 +1,28 @@
+$(document).ready(function() {
+
+  // Gets Link for Thunder Sound
+  var audioElement = document.createElement("audio");
+  audioElement.setAttribute("src", "Assets/sound.mp3");
+
+ 
+ function thunderClap() {
+    audioElement.play();
+  };
+
 //carousel 
 $('.carousel').carousel({
   interval: 3000
  });
 //function for animate.css
 function animate(){
+  $('.carousel').addClass('animated flash');
   $('#headerOne').addClass('animated flash');
   
   }
  
  var temp = 0;
  $("#submit").on("click", function(){
- 
+ thunderClap();
  animate();
   // geolocation api
  
@@ -204,3 +216,4 @@ var ctgry;
   
  })
     });
+  });
