@@ -127,8 +127,8 @@ p {
 }
 
 #drink-name {
-    /* font-family: 'Open Sans Condensed', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     color: white;
     font-size: 50px;
 }
@@ -152,7 +152,8 @@ p {
 }
 
 #food-instructions {
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 20px;
 }
